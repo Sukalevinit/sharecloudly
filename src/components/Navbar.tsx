@@ -22,7 +22,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
             />
             <AvatarFallback>SH</AvatarFallback>
           </Avatar>
-          <div className="font-semibold text-xl tracking-tight">StrawHats</div>
+          <div className="font-semibold text-xl tracking-tight">strawhats</div>
         </div>
         
         <div className="flex-1 max-w-md mx-auto">
