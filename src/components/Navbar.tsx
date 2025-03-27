@@ -1,8 +1,10 @@
+
 import React from "react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { Button } from "@/components/ui/button";
 import { Search, User } from "lucide-react";
 import { Input } from "@/components/ui/input";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 interface NavbarProps {
   onSearch: (query: string) => void;
@@ -13,11 +15,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
     <header className="border-b sticky top-0 z-10 backdrop-blur-md bg-background/80">
       <div className="container flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-2">
-          <img 
-            src="/lovable-uploads/26cdd9d2-7f5f-4d07-93bc-48e549db1a0c.png" 
-            alt="Straw Hat Pirates Logo" 
-            className="h-8 w-8"
-          />
+          <Avatar className="h-10 w-10 border-2 border-primary/50 p-0.5">
+            <AvatarImage 
+              src="/lovable-uploads/26cdd9d2-7f5f-4d07-93bc-48e549db1a0c.png" 
+              alt="Straw Hat Pirates Logo" 
+            />
+            <AvatarFallback>SH</AvatarFallback>
+          </Avatar>
           <div className="font-semibold text-xl tracking-tight">StrawHats</div>
         </div>
         
