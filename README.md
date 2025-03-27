@@ -1,8 +1,8 @@
 # Welcome to your Lovable project
 
-## Project info
+## Project 
 
-**URL**: https://lovable.dev/projects/9b54a538-a7c5-47c3-ad0e-2c1f28b9f1d3
+**URL**: https://sharecloudly.lovable.app/
 
 ## How can I edit this code?
 
