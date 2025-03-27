@@ -1,4 +1,3 @@
-
 import React from "react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { Button } from "@/components/ui/button";
@@ -19,7 +18,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onSearch }) => {
             alt="Straw Hat Pirates Logo" 
             className="h-8 w-8"
           />
-          <div className="font-semibold text-xl tracking-tight">ShareCloudly</div>
+          <div className="font-semibold text-xl tracking-tight">StrawHats</div>
         </div>
         
         <div className="flex-1 max-w-md mx-auto">
